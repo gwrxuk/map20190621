@@ -57,7 +57,10 @@
 	
 	    
 var marker = L.marker([51.5, -0.09],{icon: greenIcon}).addTo(lrmap);
-	    marker.bindPopup('<iframe src="https://plotdb.io/v/chart/22509" width="200px" height="200px" allowfullscreen="true" frameborder="0"></iframe><br><a href="http://tw.yahoo.com">hahahahahah中文</a>').openPopup();
+	    marker.bindPopup('<div style="background:red;"><iframe src="https://plotdb.io/v/chart/22509" width="200px" height="200px" allowfullscreen="true" frameborder="0"></iframe><br><a href="http://tw.yahoo.com">hahahahahah中文</a></div>').openPopup();
+	    
+	var marker2 = L.marker([1.5, -0.09],{icon: greenIcon}).addTo(lrmap);
+	    marker2.bindPopup('<iframe src="https://plotdb.io/v/chart/22509" width="200px" height="200px" allowfullscreen="true" frameborder="0"></iframe><br><a href="http://tw.yahoo.com">hahahahahah中文</a>').openPopup();
 	    
 	
 	 
